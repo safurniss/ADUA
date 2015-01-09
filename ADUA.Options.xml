@@ -1,5 +1,5 @@
 <?xml version="1.0" standalone="no"?>
-<OPTIONS Product="Active Directory User Automation (BADUA)" Version="1.0">
+<OPTIONS Product="Active Directory User Automation (ADUA)" Version="1.0">
 	<Global>
 		<Domain_DNS_Name></Domain_DNS_Name>
 		<Domain_LDAP_Path></Domain_LDAP_Path>
