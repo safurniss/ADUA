@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<OPTIONS Product="Active Directory User Automation (BADUA)" Version="1.0">
+	<Global>
+		<Domain_DNS_Name></Domain_DNS_Name>
+		<Domain_LDAP_Path></Domain_LDAP_Path>
+		<AccountRetentionPeriod>45</AccountRetentionPeriod>
+		<CreateHomeFolders>No</CreateHomeFolders>
+		<RecreateHomeFolders>No</RecreateHomeFolders>
+		<Group_Prefix>Sandhill</Group_Prefix>
+		<DisabledUsersOU></DisabledUsersOU>
+		<CSVExtractLocation></CSVExtractLocation>
+	</Global>
+
+	<Staff>
+		<Staff_OU_LDAP></Staff_OU_LDAP>
+		<Staff_Naming_Convention>FirstInitial.LastName</Staff_Naming_Convention>
+		<InitialStaffPwd>P@ssw0rd</InitialStaffPwd>
+		<Default_Staff_Group>Teachers</Default_Staff_Group>
+		<StaffHomeServer></StaffHomeServer>
+		<StaffHomeFolderRoot>Users$\Staff</StaffHomeFolderRoot>
+		<StaffOutPath></StaffOutPath>
+	</Staff>
+
+	<Students>
+		<Student_OU_LDAP></Student_OU_LDAP>
+		<Student_Naming_Convention>FirstName.LastName</Student_Naming_Convention>
+		<InitialStudentPwd>P@ssw0rd</InitialStudentPwd>
+		<Default_Student_Group>Pupils</Default_Student_Group>
+		<StudentHomeServer></StudentHomeServer>
+		<StudentHomeFolderRoot>Users$\Pupils</StudentHomeFolderRoot>
+		<StudentOutPath></StudentOutPath>
+	</Students>
+</OPTIONS>
